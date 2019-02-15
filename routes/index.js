@@ -26,4 +26,9 @@ router.get('/about', function(req, res, next) {
   res.render('about', { title: 'About Me' });
 });
 
+// POST Redirects contact page to Home when submit button clicked
+router.post('/contact', function(req, res, next) {
+  res.redirect('/');
+});
+
 module.exports = router;

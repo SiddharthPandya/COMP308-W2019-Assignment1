@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: Orange;">
 
     <a class="navbar-brand" href="/"><img src="../Assets/images/Logo.JPG" width="65px" height="60px"/></a>
 
@@ -35,7 +35,7 @@
           <li class="nav-item">
         <% } %>
 
-          <a class="nav-link" href="/"><i class="fa fa-h-square"></i> Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/"><i class="fa fa-lg fa-h-square"></i> Home <span class="sr-only">(current)</span></a>
 
         </li>
 
@@ -45,7 +45,7 @@
             <li class="nav-item">
           <% } %>
 
-          <a class="nav-link" href="/projects"><i class="fa fa-lg fa-coffee"></i> Projects</a>
+          <a class="nav-link" href="/projects"><i class="fa fa-lg fa-tasks"></i> Projects</a>
 
         </li>
 
@@ -55,17 +55,17 @@
             <li class="nav-item">
           <% } %>
 
-          <a class="nav-link" href="/services"><i class="fa fa-lg fa-sitemap"></i> Services</a>
+          <a class="nav-link" href="/services"><i class="fa fa-lg fa-suitcase"></i> Services</a>
 
         </li>
 
-        <% if(title == "Contact Us"){ %>
+        <% if(title == "Contact Me"){ %>
           <li class="nav-item active">
           <% } else { %>
             <li class="nav-item">
           <% } %>
 
-          <a class="nav-link" href="/contact"><i class="fa fa-lg fa-camera"></i> Contact Us</a>
+          <a class="nav-link" href="/contact"><i class="fa fa-lg fa-phone"></i> Contact Us</a>
 
         </li>
 
@@ -75,7 +75,7 @@
             <li class="nav-item">
           <% } %>
 
-          <a class="nav-link" href="/about"><i class="fa fa-lg fa-question"></i> About Me</a>
+          <a class="nav-link" href="/about"><i class="fa fa-lg fa-info-circle"></i> About Me</a>
 
         </li>
 
