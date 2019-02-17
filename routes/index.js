@@ -1,6 +1,11 @@
 let express = require('express');
 let router = express.Router();
 
+/*   File: index.ejs(Routes)
+     Siddharth Pandya
+     300915041
+     2019-02-16 */
+
 /* GET Home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Home' });
