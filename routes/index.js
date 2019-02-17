@@ -32,6 +32,7 @@ router.get('/about', function(req, res, next) {
 });
 
 // POST Redirects contact page to Home when submit button clicked
+// User redirected to home page by clicking submit
 router.post('/contact', function(req, res, next) {
   res.redirect('/');
 });
